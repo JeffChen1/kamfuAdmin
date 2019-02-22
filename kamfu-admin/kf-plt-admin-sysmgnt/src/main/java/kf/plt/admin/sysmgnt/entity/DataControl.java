@@ -31,7 +31,7 @@ public class DataControl extends BaseObject {
      */
     @Column(name = "row_sql")
     private String rowSql;
-    
+
 
     /**
      * 列控制sql 语句
@@ -39,6 +39,7 @@ public class DataControl extends BaseObject {
     @Column(name = "column_sql")
     private String columnSql;
 
+    
     /**
      * 需要控制的mapper命名空间
      */
