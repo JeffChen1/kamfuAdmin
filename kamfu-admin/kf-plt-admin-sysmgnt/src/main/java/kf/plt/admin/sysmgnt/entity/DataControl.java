@@ -12,12 +12,13 @@ public class DataControl extends BaseObject {
      */
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "myql")
     private String id;
-    
+
 
     /**
      * 数据资源名称
      */
     private String name;
+    
 
     /**
      * 数据权限对应菜单ID
