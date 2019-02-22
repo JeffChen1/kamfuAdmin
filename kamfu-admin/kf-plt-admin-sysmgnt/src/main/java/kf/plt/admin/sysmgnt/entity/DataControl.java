@@ -18,7 +18,7 @@ public class DataControl extends BaseObject {
      * 数据资源名称
      */
     private String name;
-    
+
 
     /**
      * 数据权限对应菜单ID
@@ -31,6 +31,7 @@ public class DataControl extends BaseObject {
      */
     @Column(name = "row_sql")
     private String rowSql;
+    
 
     /**
      * 列控制sql 语句
