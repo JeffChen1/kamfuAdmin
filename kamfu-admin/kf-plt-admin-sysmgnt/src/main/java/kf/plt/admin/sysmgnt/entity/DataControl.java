@@ -39,6 +39,7 @@ public class DataControl extends BaseObject {
     @Column(name = "column_sql")
     private String columnSql;
 
+
     
     /**
      * 需要控制的mapper命名空间
